@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Z-IPTV</title>
+<meta name="description" content="Z-IPTV: IPTV player for LG and Samsung smart TVs.">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#f4f5f9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1220" media="(prefers-color-scheme: dark)">
+<script>
+  (function () {
+    var r = document.documentElement, t, l;
+    try { t = JSON.parse(localStorage.getItem('ziptv-site.theme')); } catch (e) {}
+    if (t === 'light' || t === 'dark') r.setAttribute('data-theme', t);
+    try { l = JSON.parse(localStorage.getItem('ziptv-site.lang')); } catch (e) {}
+    if (l === 'he' || l === 'ar') { r.lang = l; r.dir = 'rtl'; }
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Allura&text=Zuhier%20Farah&display=swap">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a class="brand" href="./"><img src="icon.svg" alt="">Z-IPTV</a>
+  <select id="lang"><option value="en">English</option><option value="he">עברית</option><option value="ar">العربية</option></select>
+  <button id="theme" class="icon-btn" type="button"></button>
+</header>
+<main>
+  <section class="hero">
+    <img src="icon.svg" alt="Z-IPTV">
+    <h1>Z-IPTV</h1>
+    <p class="tag" data-t="tagline"></p>
+  </section>
+  <section class="card">
+    <p data-t="intro"></p>
+    <ul class="features"><li data-t="f1"></li><li data-t="f2"></li><li data-t="f3"></li><li data-t="f4"></li><li data-t="f5"></li></ul>
+  </section>
+  <p class="links"><a class="btn" href="privacy.html" data-t="privacy"></a></p>
+</main>
+</div>
+<footer class="credit"><span class="credit-rule" aria-hidden="true"></span><span class="credit-label" data-t="madeBy">Made by</span><span class="signature" dir="ltr">Zuhier Farah</span><span class="credit-year" id="year"></span></footer>
+<script src="site.js"></script>
+</body>
+</html>
