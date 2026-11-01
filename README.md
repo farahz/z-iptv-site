@@ -1,6 +1,6 @@
-# Z-IPTV website
+# Z-IPTV Player website
 
-Public pages for the Z-IPTV TV app: a short landing page and the app's privacy policy, linked from the LG and Samsung app stores.
+Public pages for the Z-IPTV Player TV app: a short landing page and the app's privacy policy, linked from the LG and Samsung app stores.
 
 ## Live site
 

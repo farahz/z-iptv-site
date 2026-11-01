@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Z-IPTV · Privacy policy</title>
-<meta name="description" content="Privacy policy of the Z-IPTV TV app.">
+<title>Z-IPTV Player · Privacy policy</title>
+<meta name="description" content="Privacy policy of the Z-IPTV Player TV app.">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <meta name="theme-color" content="#f4f5f9" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1220" media="(prefers-color-scheme: dark)">
@@ -25,7 +25,7 @@
 <body>
 <div class="wrap">
 <header class="top">
-  <a class="brand" href="./"><img src="icon.svg" alt="">Z-IPTV</a>
+  <a class="brand" href="./"><img src="icon.svg" alt="">Z-IPTV Player</a>
   <select id="lang"><option value="en">English</option><option value="he">עברית</option><option value="ar">العربية</option></select>
   <button id="theme" class="icon-btn" type="button"></button>
 </header>
@@ -41,7 +41,7 @@
   // Fills the policy for the chosen language (site.js calls this on every language change).
   window.onSiteRender = function (lang) {
     var doc = Z.PRIVACY[lang] || Z.PRIVACY.en;
-    document.title = 'Z-IPTV · ' + doc.title;
+    document.title = 'Z-IPTV Player · ' + doc.title;
     document.getElementById('ptitle').textContent = doc.title;
     document.getElementById('pupdated').textContent = doc.updated + ': ' + new Date(Z.PRIVACY.updated + 'T12:00:00').toLocaleDateString(lang === 'ar' ? 'ar-u-nu-latn' : lang, { year: 'numeric', month: 'long', day: 'numeric' });
     document.getElementById('pbody').innerHTML = Z.privacyHtml(lang);

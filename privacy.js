@@ -1,4 +1,4 @@
-/* Z-IPTV privacy policy, shared by the app (Settings -> About) and the public page (site/privacy.html).
+/* Z-IPTV Player privacy policy, shared by the app (Settings -> About) and the public page (site/privacy.html).
    Keep the three languages in step, and update UPDATED whenever the policy changes. */
 (function () {
   'use strict';
@@ -7,14 +7,14 @@
   const mail = '<a href="mailto:' + CONTACT + '" dir="ltr">' + CONTACT + '</a>';
 
   Z.PRIVACY = {
-    updated: '2026-10-31',
+    updated: '2026-11-01',
     en: {
       title: 'Privacy policy',
       updated: 'Last updated',
       sections: [
         { h: 'In short', p: [
-          'Z-IPTV is a video player for TVs. It does not provide any channels, films or other content: you add your own playlist or IPTV account.',
-          'Z-IPTV has no user accounts, no advertising and no analytics. The developer does not collect, receive or sell any of your data.'
+          'Z-IPTV Player is a video player for TVs. It does not provide any channels, films or other content: you add your own playlist or IPTV account.',
+          'Z-IPTV Player has no user accounts, no advertising and no analytics. The developer does not collect, receive or sell any of your data.'
         ] },
         { h: 'What is stored on your TV', p: [
           'To work, the app saves the following in its own storage on your TV:',
@@ -29,7 +29,7 @@
             '<b>OpenSubtitles.com</b>: only if you add an OpenSubtitles API key. The app sends what you search for (title, year, season and episode, film IDs and languages) and, if you sign in, your username and password. The <a href="https://www.opensubtitles.com/en/privacy" dir="ltr">OpenSubtitles privacy policy</a> applies.',
             '<b>Google Fonts</b>: the font for the signature in the app’s footer is loaded from Google, which receives your IP address and standard browser information. See the <a href="https://policies.google.com/privacy" dir="ltr">Google privacy policy</a>.']
         ] },
-        { h: 'Children', p: ['Z-IPTV is not directed at children under 13, and it does not collect personal data from anyone.'] },
+        { h: 'Children', p: ['Z-IPTV Player is not directed at children under 13, and it does not collect personal data from anyone.'] },
         { h: 'Changes to this policy', p: ['If this policy changes, the new version will be published on this page with a new date.'] },
         { h: 'Contact', p: ['Questions about privacy: ' + mail] }
       ]
@@ -39,8 +39,8 @@
       updated: 'עודכן לאחרונה',
       sections: [
         { h: 'בקצרה', p: [
-          'Z-IPTV הוא נגן וידאו לטלוויזיה. הוא לא מספק ערוצים, סרטים או תוכן אחר: אתם מוסיפים רשימת ערוצים או חשבון IPTV משלכם.',
-          'ב-Z-IPTV אין חשבונות משתמש, אין פרסומות ואין כלי מעקב או ניתוח. המפתח לא אוסף, לא מקבל ולא מוכר שום מידע שלכם.'
+          'Z-IPTV Player הוא נגן וידאו לטלוויזיה. הוא לא מספק ערוצים, סרטים או תוכן אחר: אתם מוסיפים רשימת ערוצים או חשבון IPTV משלכם.',
+          'ב-Z-IPTV Player אין חשבונות משתמש, אין פרסומות ואין כלי מעקב או ניתוח. המפתח לא אוסף, לא מקבל ולא מוכר שום מידע שלכם.'
         ] },
         { h: 'מה נשמר בטלוויזיה', p: [
           'כדי לפעול, האפליקציה שומרת את הפרטים הבאים באחסון שלה בטלוויזיה:',
@@ -55,7 +55,7 @@
             '<b>OpenSubtitles.com</b>: רק אם הוספתם מפתח API של OpenSubtitles. האפליקציה שולחת את מה שחיפשתם (שם, שנה, עונה ופרק, מזהי סרטים ושפות), ואם התחברתם, גם את שם המשתמש והסיסמה. חלה <a href="https://www.opensubtitles.com/en/privacy" dir="ltr">מדיניות הפרטיות של OpenSubtitles</a>.',
             '<b>Google Fonts</b>: הגופן של החתימה בתחתית האפליקציה נטען מ-Google, שמקבלת את כתובת ה-IP שלכם ומידע רגיל על הדפדפן. ראו את <a href="https://policies.google.com/privacy" dir="ltr">מדיניות הפרטיות של Google</a>.']
         ] },
-        { h: 'ילדים', p: ['Z-IPTV לא מיועדת לילדים מתחת לגיל 13, והיא לא אוספת מידע אישי מאף אחד.'] },
+        { h: 'ילדים', p: ['Z-IPTV Player לא מיועדת לילדים מתחת לגיל 13, והיא לא אוספת מידע אישי מאף אחד.'] },
         { h: 'שינויים במדיניות', p: ['אם המדיניות תשתנה, הגרסה החדשה תפורסם בעמוד הזה עם תאריך חדש.'] },
         { h: 'יצירת קשר', p: ['שאלות בנושא פרטיות: ' + mail] }
       ]
@@ -65,8 +65,8 @@
       updated: 'آخر تحديث',
       sections: [
         { h: 'باختصار', p: [
-          'Z-IPTV مشغّل فيديو لأجهزة التلفاز. لا يوفّر أي قنوات أو أفلام أو محتوى آخر: أنت تضيف قائمة القنوات أو حساب IPTV الخاص بك.',
-          'لا توجد في Z-IPTV حسابات مستخدمين ولا إعلانات ولا أدوات تتبّع أو تحليل. المطوّر لا يجمع بياناتك ولا يستلمها ولا يبيعها.'
+          'Z-IPTV Player مشغّل فيديو لأجهزة التلفاز. لا يوفّر أي قنوات أو أفلام أو محتوى آخر: أنت تضيف قائمة القنوات أو حساب IPTV الخاص بك.',
+          'لا توجد في Z-IPTV Player حسابات مستخدمين ولا إعلانات ولا أدوات تتبّع أو تحليل. المطوّر لا يجمع بياناتك ولا يستلمها ولا يبيعها.'
         ] },
         { h: 'ما يُحفظ على التلفاز', p: [
           'ليعمل التطبيق، يحفظ ما يلي في مساحة التخزين الخاصة به على التلفاز:',
@@ -81,7 +81,7 @@
             '<b>OpenSubtitles.com</b>: فقط إذا أضفت مفتاح API لـ OpenSubtitles. يرسل التطبيق ما تبحث عنه (العنوان والسنة والموسم والحلقة ومعرّفات الأفلام واللغات)، وإذا سجّلت الدخول، يرسل أيضًا اسم المستخدم وكلمة المرور. تنطبق <a href="https://www.opensubtitles.com/en/privacy" dir="ltr">سياسة خصوصية OpenSubtitles</a>.',
             '<b>Google Fonts</b>: يُحمَّل خط التوقيع في أسفل التطبيق من Google، التي تستلم عنوان IP الخاص بك ومعلومات المتصفح المعتادة. راجع <a href="https://policies.google.com/privacy" dir="ltr">سياسة خصوصية Google</a>.']
         ] },
-        { h: 'الأطفال', p: ['Z-IPTV غير موجّه للأطفال دون 13 عامًا، ولا يجمع بيانات شخصية من أي أحد.'] },
+        { h: 'الأطفال', p: ['Z-IPTV Player غير موجّه للأطفال دون 13 عامًا، ولا يجمع بيانات شخصية من أي أحد.'] },
         { h: 'التغييرات على هذه السياسة', p: ['إذا تغيّرت هذه السياسة، ستُنشر النسخة الجديدة في هذه الصفحة مع تاريخ جديد.'] },
         { h: 'التواصل', p: ['للأسئلة المتعلقة بالخصوصية: ' + mail] }
       ]

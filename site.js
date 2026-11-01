@@ -5,26 +5,26 @@
   var STRINGS = {
     en: {
       tagline: 'IPTV player for LG and Samsung smart TVs',
-      intro: 'Watch your own IPTV playlists on the big screen: live TV with a programme guide, movies and series, and subtitles from the web. Z-IPTV is a player only; it does not provide any channels or content.',
+      intro: 'Watch your own IPTV playlists on the big screen: live TV with a programme guide, movies and series, and subtitles from the web. Z-IPTV Player is a player only; it does not provide any channels or content.',
       f1: 'M3U playlists and Xtream Codes accounts', f2: 'Live TV, TV guide and catch-up', f3: 'Movies and series with resume',
       f4: 'Subtitles from OpenSubtitles or any web address', f5: 'English, Hebrew and Arabic',
-      privacy: 'Privacy policy', home: 'Z-IPTV home', madeBy: 'Made by', language: 'Language',
+      privacy: 'Privacy policy', home: 'Z-IPTV Player home', madeBy: 'Made by', language: 'Language',
       theme: 'Theme', theme_system: 'System', theme_light: 'Light', theme_dark: 'Dark'
     },
     he: {
       tagline: 'נגן IPTV לטלוויזיות חכמות של LG ו-Samsung',
-      intro: 'צפו ברשימות ה-IPTV שלכם על המסך הגדול: שידור חי עם לוח שידורים, סרטים וסדרות, וכתוביות מהרשת. Z-IPTV הוא נגן בלבד; הוא לא מספק ערוצים או תוכן.',
+      intro: 'צפו ברשימות ה-IPTV שלכם על המסך הגדול: שידור חי עם לוח שידורים, סרטים וסדרות, וכתוביות מהרשת. Z-IPTV Player הוא נגן בלבד; הוא לא מספק ערוצים או תוכן.',
       f1: 'רשימות M3U וחשבונות Xtream Codes', f2: 'שידור חי, לוח שידורים וצפייה לאחור', f3: 'סרטים וסדרות עם המשך צפייה',
       f4: 'כתוביות מ-OpenSubtitles או מכל כתובת אינטרנט', f5: 'אנגלית, עברית וערבית',
-      privacy: 'מדיניות פרטיות', home: 'הדף הראשי של Z-IPTV', madeBy: 'נוצר על ידי', language: 'שפה',
+      privacy: 'מדיניות פרטיות', home: 'הדף הראשי של Z-IPTV Player', madeBy: 'נוצר על ידי', language: 'שפה',
       theme: 'ערכת נושא', theme_system: 'לפי המערכת', theme_light: 'בהירה', theme_dark: 'כהה'
     },
     ar: {
       tagline: 'مشغّل IPTV لأجهزة تلفاز LG وSamsung الذكية',
-      intro: 'شاهد قوائم IPTV الخاصة بك على الشاشة الكبيرة: بث مباشر مع دليل البرامج، أفلام ومسلسلات، وترجمة من الإنترنت. Z-IPTV مشغّل فقط، ولا يوفّر أي قنوات أو محتوى.',
+      intro: 'شاهد قوائم IPTV الخاصة بك على الشاشة الكبيرة: بث مباشر مع دليل البرامج، أفلام ومسلسلات، وترجمة من الإنترنت. Z-IPTV Player مشغّل فقط، ولا يوفّر أي قنوات أو محتوى.',
       f1: 'قوائم M3U وحسابات Xtream Codes', f2: 'بث مباشر ودليل البرامج والمشاهدة اللاحقة', f3: 'أفلام ومسلسلات مع متابعة المشاهدة',
       f4: 'ترجمة من OpenSubtitles أو من أي عنوان ويب', f5: 'الإنجليزية والعبرية والعربية',
-      privacy: 'سياسة الخصوصية', home: 'الصفحة الرئيسية لـ Z-IPTV', madeBy: 'صُنع بواسطة', language: 'اللغة',
+      privacy: 'سياسة الخصوصية', home: 'الصفحة الرئيسية لـ Z-IPTV Player', madeBy: 'صُنع بواسطة', language: 'اللغة',
       theme: 'المظهر', theme_system: 'حسب النظام', theme_light: 'فاتح', theme_dark: 'داكن'
     }
   };
