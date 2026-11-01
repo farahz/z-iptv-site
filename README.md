@@ -11,6 +11,13 @@ https://farahz.github.io/z-iptv-site/ · privacy policy: https://farahz.github.i
 - Landing page describing the app.
 - Privacy policy (`privacy.html`), the same text the app shows in Settings → About.
 - English, Hebrew and Arabic with right-to-left layout; light / dark / system theme; phone friendly.
+- **Demo playlist for app-store reviewers**, in `demo/`:
+  - `demo.m3u`: 7 channels of free test streams
+  - `guide.xml`: a 21-day TV guide
+  - `logos/`: made-up channel logos
+  - `subtitles-en.srt`: an English subtitle file
+
+  The address to give reviewers is https://farahz.github.io/z-iptv-site/demo/demo.m3u. The streams are public test streams published for testing video players (Mux, Unified Streaming); the films in them are Blender open movies (Creative Commons).
 
 ## How it works
 

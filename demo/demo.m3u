@@ -1,0 +1,15 @@
+#EXTM3U url-tvg="https://farahz.github.io/z-iptv-site/demo/guide.xml"
+#EXTINF:-1 tvg-id="zlive" tvg-chno="1" tvg-logo="https://farahz.github.io/z-iptv-site/demo/logos/zlive.png" group-title="Live",Z Live Clock
+https://demo.unified-streaming.com/k8s/live/stable/live.isml/.m3u8
+#EXTINF:-1 tvg-id="zstudio" tvg-chno="2" tvg-logo="https://farahz.github.io/z-iptv-site/demo/logos/zstudio.png" group-title="Live",Z Live Studio
+https://demo.unified-streaming.com/k8s/live/stable/scte35.isml/.m3u8
+#EXTINF:-1 tvg-id="anim" tvg-chno="3" tvg-logo="https://farahz.github.io/z-iptv-site/demo/logos/anim.png" group-title="Movies",Animation HD
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:-1 tvg-id="scifi" tvg-chno="4" tvg-logo="https://farahz.github.io/z-iptv-site/demo/logos/scifi.png" group-title="Movies",Sci-Fi Channel
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 tvg-id="multi" tvg-chno="5" tvg-logo="https://farahz.github.io/z-iptv-site/demo/logos/multi.png" group-title="Movies",Multi Audio
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel-multi-lang.ism/.m3u8
+#EXTINF:-1 tvg-id="classic" tvg-chno="6" tvg-logo="https://farahz.github.io/z-iptv-site/demo/logos/classic.png" group-title="Movies",Cinema Classic
+https://test-streams.mux.dev/tos_ismc/main.m3u8
+#EXTINF:-1 tvg-id="test" tvg-chno="7" tvg-logo="https://farahz.github.io/z-iptv-site/demo/logos/test.png" group-title="Test",Test Channel
+https://test-streams.mux.dev/test_001/stream.m3u8
